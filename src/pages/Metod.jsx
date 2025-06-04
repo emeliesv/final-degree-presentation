@@ -2,9 +2,9 @@ import Card from "../components/Card";
 
 const Metod = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-white text-center gap-5 text-brand py-10 px-5 lg:px-20">
-      <h1 className="font-display text-6xl">Workshops</h1>
-      <p className=" text-left">
+    <section className="flex flex-col justify-center items-center bg-white text-center gap-5 text-neutral-dark py-10 px-5 lg:px-20">
+      <h1 className="font-display text-brand text-6xl">Workshops</h1>
+      <p className="text-left">
         Genom att inkludera medarbetare från olika roller och team i
         workshoparna skapade vi en användarcentrerad process där deltagarna
         själva fick identifiera utmaningar och utveckla lösningar. Detta ökade
@@ -13,7 +13,7 @@ const Metod = () => {
         förutsättningar.
       </p>
 
-      <h2 className="text-brand text-2xl font-medium">
+      <h2 className="text-brandtext-2xl font-medium">
         Workshop 1 - Discover & Define
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">

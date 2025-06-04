@@ -6,10 +6,10 @@ const Nav = () => {
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `font-montserrat font-medium text-lg px-4 py-2 border-2 border-brand transition-all duration-200 ${
+          `font-montserrat font-medium text-lg px-4 py-2 border-2 border-brand transition-all duration-200 hover:bg-brand hover:text-neutral-light ${
             isActive
-              ? "bg-brand text-white"
-              : "bg-white text-brand hover:bg-gray-100"
+              ? "bg-brand text-neutral-light"
+              : "bg-neutral-light text-brand"
           }`
         }
       >
@@ -18,35 +18,15 @@ const Nav = () => {
       <NavLink
         to="/metod"
         className={({ isActive }) =>
-          `font-montserrat font-medium text-lg px-4 py-2 border-2 border-brand transition-all duration-200 ${
+          `font-montserrat font-medium text-lg px-4 py-2 border-2 border-brand transition-all duration-200 hover:bg-brand hover:text-neutral-light ${
             isActive
-              ? "bg-brand text-white"
-              : "bg-white text-brand hover:bg-gray-100"
+              ? "bg-brand text-neutral-light"
+              : "bg-neutral-light text-brand"
           }`
         }
       >
         METOD
       </NavLink>
-      {/* <NavLink
-        to="/"
-        className={({ isActive }) =>
-          `font-display font-medium text-2xl text-gray-900 hover: hover:border-2 ${
-            isActive && "border-2"
-          } p-2`
-        }
-      >
-        HEM
-      </NavLink>
-      <NavLink
-        to="/metod"
-        className={({ isActive }) =>
-          `font-display font-medium text-2xl text-gray-900 hover: hover:border-2 ${
-            isActive && "border-2"
-          } p-2`
-        }
-      >
-        METOD
-      </NavLink> */}
     </nav>
   );
 };

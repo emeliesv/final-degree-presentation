@@ -47,28 +47,26 @@ const DoubleDiamond = () => {
             intervjuer och vår första workshop:
           </p>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-4 bg-accent rounded-lg">
-              <h5 className="font-semibold text-brand mb-2">Ägandeskap</h5>
+            <div className="p-4 border-2 border-brand rounded-lg text-brand">
+              <h5 className="font-semibold mb-2">Ägandeskap</h5>
               <p className=" text-sm">
                 Otydligt och fragmenterat ägarskap för tillgänglighetsarbetet
               </p>
             </div>
-            <div className="p-4 bg-accent rounded-lg">
-              <h5 className="font-semibold  mb-2">Kunskapsglapp</h5>
+            <div className="p-4 border-2 border-brand text-brand rounded-lg">
+              <h5 className="font-semibold mb-2">Kunskapsglapp</h5>
               <p className=" text-sm">
                 Ojämn kunskapsfördelning och brist på praktisk kompetens
               </p>
             </div>
-            <div className="p-4 bg-accent rounded-lg">
-              <h5 className="font-semibold text-brand mb-2">
-                Oklara rollbeskrivningar
-              </h5>
+            <div className="p-4 border-2 border-brand text-brand rounded-lg">
+              <h5 className="font-semibold mb-2">Oklara rollbeskrivningar</h5>
               <p className="text-accent-dark text-sm">
                 Bristande förväntningar på olika roller
               </p>
             </div>
-            <div className="p-4 bg-accent rounded-lg">
-              <h5 className="font-semibold text-brand mb-2">
+            <div className="p-4 border-2 border-brand text-brand rounded-lg">
+              <h5 className="font-semibold mb-2">
                 Integrerade arbetsprocesser
               </h5>
               <p className=" text-sm">
@@ -86,26 +84,26 @@ const DoubleDiamond = () => {
       >
         <div className="flex flex-col gap-6">
           <h4 className="font-semibold">Workshop 2: Lösningsgenering</h4>
-          <p className="">
+          <p>
             Deltagarna arbetade i grupper för att generera idéer baserade på de
             identifierade problemområdena. Genom "Solution Cards"
             konkretiserades de mest lovande lösningsförslagen.
           </p>
           <h4 className="font-semibold">Reviderade hypoteser</h4>
-          <div className="p-4 bg-neutral">
+          <div className="p-4 border-brand border-2 rounded-lg">
             <h5 className="font-semibold text-brand mb-2">
               Centralt supportteam
             </h5>
-            <p className="">
+            <p>
               Ett centralt expertteam med tillgänglighetsexpertis som kan stödja
               team genom hela processen
             </p>
           </div>
-          <div className="p-4 bg-neutral">
+          <div className="p-4 border-brand border-2 rounded-lg">
             <h5 className="font-semibold text-brand mb-2">
               Rollspecifikt stöd
             </h5>
-            <p className="">
+            <p>
               Tydliga rollbeskrivningar med rollspecifikt stödmaterial och
               onboarding
             </p>
@@ -120,7 +118,7 @@ const DoubleDiamond = () => {
       >
         <div className="flex flex-col gap-3">
           <h4 className="font-semibold">Prioriterade lösningar</h4>
-          <div className="p-6 bg-brand text-neutral rounded-lg">
+          <div className="p-6 bg-brand text-neutral-light rounded-lg">
             <h5 className="font-semibold text-lg">
               Störst effekt: Användarinvolvering
             </h5>
@@ -131,7 +129,7 @@ const DoubleDiamond = () => {
             </p>
           </div>
 
-          <div className="p-6 bg-brand text-neutral rounded-lg">
+          <div className="p-6 bg-brand text-neutral-light rounded-lg">
             <h5 className="font-semibold text-lg">
               Mest potential: Obligatorisk utbildning
             </h5>
@@ -142,7 +140,7 @@ const DoubleDiamond = () => {
           </div>
 
           <h4 className="font-semibold">Slutsats</h4>
-          <p className="">
+          <p>
             För ett hållbart tillgänglighetsarbete krävs resursallokering från
             ledningsnivå och en kedja av kontaktpersoner som kan fungera som
             länk mellan expertis och utförande.
