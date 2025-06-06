@@ -1,6 +1,14 @@
-const Image = (props) => {
+const Image = ({ imgUrl, altText, width, height, lazy = false }) => {
   return (
-    <img src={props.imgUrl} alt={props.altText} className="w-60 md:w-[500px]" />
+    <img
+      src={imgUrl}
+      alt={altText}
+      className="w-60 md:w-[500px]"
+      width={width}
+      height={height}
+      loading={lazy ? "lazy" : "eager"}
+      decoding="async"
+    />
   );
 };
 

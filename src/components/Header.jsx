@@ -7,6 +7,9 @@ const Header = () => {
         src="/Images/Logo.png"
         alt="Emelie Svensson round logo"
         className="w-28 md:w-32"
+        width="112"
+        height="128"
+        loading="eager"
       />
       <Nav />
     </header>

@@ -10,6 +10,9 @@ const Footer = () => {
         src="/Images/LogoInverted.png"
         alt="Emelie Svensson rounded logo"
         className="w-40 md:w-32"
+        width="160"
+        height="128"
+        loading="lazy"
       />
     </footer>
   );
