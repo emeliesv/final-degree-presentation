@@ -9,8 +9,8 @@ const ExpandableSection = ({ title, icon, subTitle, children }) => {
   };
 
   return (
-    <div className="shadow-sm rounded-2xl shadow-neutral-dark md:w-3/4 bg-white">
-      <button
+    <details className="shadow-sm rounded-2xl shadow-neutral-dark md:w-3/4 bg-white">
+      <summary
         onClick={toggleExpanded}
         className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-2 w-full"
         type="button"
@@ -35,7 +35,7 @@ const ExpandableSection = ({ title, icon, subTitle, children }) => {
         >
           <ChevronDown />
         </span>
-      </button>
+      </summary>
       <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${
           expanded ? "opacity-100" : "max-h-0 opacity-0"
@@ -43,7 +43,7 @@ const ExpandableSection = ({ title, icon, subTitle, children }) => {
       >
         <div className="p-4 bg-white rounded-2xl">{children}</div>
       </div>
-    </div>
+    </details>
   );
 };
 
