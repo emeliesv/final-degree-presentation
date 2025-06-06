@@ -18,14 +18,14 @@ const Metod = () => {
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <Card
-          imgUrl="/Images/timeline.png"
+          imgUrl="/Images/timeline.webp"
           altText="Tidslinje från workshop ett där deltagarna fick placera post it's för att visualisera deras arbete med tillgänglighet under en produktionskedja."
         >
           Tidslinje som användes under vår första workshop
         </Card>
 
         <Card
-          imgUrl="/Images/ws1analysis.png"
+          imgUrl="/Images/ws1analysis.webp"
           altText="Deltagarnas identifierade problemområden under första workshopen"
         >
           Deltagarnas identifierade problemområden under första workshopen
@@ -38,7 +38,7 @@ const Metod = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <Card
-          imgUrl="/Images/recapws1.png"
+          imgUrl="/Images/recapws1.webp"
           altText="Workshop 2 inleddes med en återblick till de identifierade problemområdena: Ägandeskap, kunskapsluckor, bristande arbetsprocess och oklara rollbeskrivningar inom tillgänglighet"
         >
           Den andra workshopen inleddes med en återblick till de identifierade
@@ -46,7 +46,7 @@ const Metod = () => {
         </Card>
 
         <Card
-          imgUrl="/Images/ws2solutions.png"
+          imgUrl="/Images/ws2solutions.webp"
           altText="Deltagarnas lösningsförslag skapades i mallar som vi döpte 'Solution Cards'"
         >
           Deltagarna konkretiserade sina lösningsförslag i våra "Solution Cards"
@@ -57,7 +57,7 @@ const Metod = () => {
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <Card
-          imgUrl="/Images/ws1overview.png"
+          imgUrl="/Images/ws1overview.webp"
           altText="En översikt över hela första workshopsflödet"
         >
           Första workshopens struktur utgick från att identifiera utmaningar och
@@ -65,7 +65,7 @@ const Metod = () => {
         </Card>
 
         <Card
-          imgUrl="/Images/ws2overview.png"
+          imgUrl="/Images/ws2overview.webp"
           altText="En översikt över hela andra workshopsflödet"
         >
           Den andra workshopen var tydligt lösningsorienterad med kollaborativ
