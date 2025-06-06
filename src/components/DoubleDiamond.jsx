@@ -13,7 +13,7 @@ const DoubleDiamond = () => {
         icon={<Search />}
       >
         <div>
-          <h4 className="font-semibold mb-3">Semistrukturerade intervjuer</h4>
+          <h3 className="font-semibold mb-3">Semistrukturerade intervjuer</h3>
           <p className=" mb-4">
             Vi genomförde sex djupgående intervjuer med noga utvalda personer
             från olika roller:
@@ -26,7 +26,7 @@ const DoubleDiamond = () => {
             <li>Content & SEO Manager - innehållsstrategi</li>
           </ul>
 
-          <h4 className="font-semibold mb-3">Workshop 1: Kartläggning</h4>
+          <h3 className="font-semibold mb-3">Workshop 1: Kartläggning</h3>
           <p className=" mb-4">
             15 deltagare från olika roller kartlade sina upplevelser genom att
             fylla i en tidslinje över produktionskedjan. Gruppdiskussioner
@@ -41,34 +41,34 @@ const DoubleDiamond = () => {
         icon={<NotebookPenIcon />}
       >
         <div>
-          <h4 className="font-semibold mb-3">Identifierade problemområden</h4>
+          <h3 className="font-semibold mb-3">Identifierade problemområden</h3>
           <p className=" mb-4">
             Följande problemområden identifierades och förstärktes genom
             intervjuer och vår första workshop:
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-4 border-2 border-brand rounded-lg text-brand">
-              <h5 className="font-semibold mb-2">Ägandeskap</h5>
+              <h4 className="font-semibold mb-2">Ägandeskap</h4>
               <p className=" text-sm">
                 Otydligt och fragmenterat ägarskap för tillgänglighetsarbetet
               </p>
             </div>
             <div className="p-4 border-2 border-brand text-brand rounded-lg">
-              <h5 className="font-semibold mb-2">Kunskapsglapp</h5>
+              <h4 className="font-semibold mb-2">Kunskapsglapp</h4>
               <p className=" text-sm">
                 Ojämn kunskapsfördelning och brist på praktisk kompetens
               </p>
             </div>
             <div className="p-4 border-2 border-brand text-brand rounded-lg">
-              <h5 className="font-semibold mb-2">Oklara rollbeskrivningar</h5>
+              <h4 className="font-semibold mb-2">Oklara rollbeskrivningar</h4>
               <p className="text-accent-dark text-sm">
                 Bristande förväntningar på olika roller
               </p>
             </div>
             <div className="p-4 border-2 border-brand text-brand rounded-lg">
-              <h5 className="font-semibold mb-2">
+              <h4 className="font-semibold mb-2">
                 Integrerade arbetsprocesser
-              </h5>
+              </h4>
               <p className=" text-sm">
                 Brist på gemensamma processer och prioritering
               </p>
@@ -83,26 +83,26 @@ const DoubleDiamond = () => {
         icon={<Lightbulb />}
       >
         <div className="flex flex-col gap-6">
-          <h4 className="font-semibold">Workshop 2: Lösningsgenering</h4>
+          <h3 className="font-semibold">Workshop 2: Lösningsgenering</h3>
           <p>
             Deltagarna arbetade i grupper för att generera idéer baserade på de
             identifierade problemområdena. Genom "Solution Cards"
             konkretiserades de mest lovande lösningsförslagen.
           </p>
-          <h4 className="font-semibold">Reviderade hypoteser</h4>
+          <h3 className="font-semibold">Reviderade hypoteser</h3>
           <div className="p-4 border-brand border-2 rounded-lg">
-            <h5 className="font-semibold text-brand mb-2">
+            <h4 className="font-semibold text-brand mb-2">
               Centralt supportteam
-            </h5>
+            </h4>
             <p>
               Ett centralt expertteam med tillgänglighetsexpertis som kan stödja
               team genom hela processen
             </p>
           </div>
           <div className="p-4 border-brand border-2 rounded-lg">
-            <h5 className="font-semibold text-brand mb-2">
+            <h4 className="font-semibold text-brand mb-2">
               Rollspecifikt stöd
-            </h5>
+            </h4>
             <p>
               Tydliga rollbeskrivningar med rollspecifikt stödmaterial och
               onboarding
@@ -117,11 +117,11 @@ const DoubleDiamond = () => {
         icon={<HandHeart />}
       >
         <div className="flex flex-col gap-3">
-          <h4 className="font-semibold">Prioriterade lösningar</h4>
+          <h3 className="font-semibold">Prioriterade lösningar</h3>
           <div className="p-6 bg-brand text-neutral-light rounded-lg">
-            <h5 className="font-semibold text-lg">
+            <h4 className="font-semibold text-lg">
               Störst effekt: Användarinvolvering
-            </h5>
+            </h4>
             <p>
               Involvera användare med funktionsnedsättningar i test och feedback
               under produktutveckling för att förbättra förståelsen och
@@ -130,16 +130,16 @@ const DoubleDiamond = () => {
           </div>
 
           <div className="p-6 bg-brand text-neutral-light rounded-lg">
-            <h5 className="font-semibold text-lg">
+            <h4 className="font-semibold text-lg">
               Mest potential: Obligatorisk utbildning
-            </h5>
+            </h4>
             <p>
               Rollspecifik, återkommande Workday-utbildning för att minska
               kunskapsluckor och öka medvetenhet om tillgänglighet.
             </p>
           </div>
 
-          <h4 className="font-semibold">Slutsats</h4>
+          <h3 className="font-semibold">Slutsats</h3>
           <p>
             För ett hållbart tillgänglighetsarbete krävs resursallokering från
             ledningsnivå och en kedja av kontaktpersoner som kan fungera som

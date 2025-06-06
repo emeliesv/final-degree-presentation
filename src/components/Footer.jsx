@@ -7,7 +7,7 @@ const Footer = () => {
         <p>En studie om digital tillgänglighet i tvärfunktionella team</p>
       </div>
       <img
-        src="/Images/LogoInverted.png"
+        src="/Images/LogoInverted.webp"
         alt="Emelie Svensson rounded logo"
         className="w-40 md:w-32"
         width="160"

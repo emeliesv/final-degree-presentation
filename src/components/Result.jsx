@@ -11,14 +11,14 @@ const Result = () => {
 
       <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center gap-6">
         <div className="bg-neutral border-2 border-brand p-3 flex flex-col gap-2 max-w-80 rounded-lg">
-          <h4 className="text-brand text-xl">Ägandeskap i teamen</h4>
-          <h5 className="font-medium">Ursprunglig hypotes</h5>
+          <h3 className="text-brand text-xl">Ägandeskap i teamen</h3>
+          <h4 className="font-medium">Ursprunglig hypotes</h4>
           <p className="italic text-sm">
             "Om varje team har en tydlig tillgänglighetsansvarig med mandat,
             stöd i form av nätverk och avsatt tid, ökar det proaktiva arbetet
             med tillgänglighet och minskar beroendet av enskilda eldsjälar."
           </p>
-          <h5 className=" font-medium">Reviderad hypotes</h5>
+          <h4 className=" font-medium">Reviderad hypotes</h4>
           <p className="italic text-sm">
             "Om det finns ett centralt supportteam med tillgänglighetsexpertis
             etableras och kan stödja team i hela processen, ökar det proaktiva
@@ -28,14 +28,14 @@ const Result = () => {
         </div>
 
         <div className="bg-neutral border-2 border-brand p-3 flex flex-col gap-2 max-w-80 rounded-lg">
-          <h4 className="text-brand text-xl">Tydliga rollförväntningar</h4>
-          <h5 className="font-medium">Ursprunglig hypotes</h5>
+          <h3 className="text-brand text-xl">Tydliga rollförväntningar</h3>
+          <h4 className="font-medium">Ursprunglig hypotes</h4>
           <p className="italic text-sm">
             "Om varje roll har en tydlig och uttalad beskrivning av sitt ansvar
             för tillgänglighet, förbättras kommunikationen i teamet och
             tillgänglighet integreras mer konsekvent genom hela processen."
           </p>
-          <h5 className="font-medium">Reviderad hypotes</h5>
+          <h4 className="font-medium">Reviderad hypotes</h4>
           <p className="italic text-sm">
             "Om varje roll har en tydlig och uttalad beskrivning av sitt ansvar
             för tillgänglighet, rollspecifikt stödmaterial, onboarding och
@@ -45,14 +45,14 @@ const Result = () => {
         </div>
 
         <div className="bg-neutral border-2 border-brand p-3 flex flex-col gap-2 max-w-80 rounded-lg">
-          <h4 className="text-brand text-xl">Process och planering</h4>
-          <h5 className="font-medium">Ursprunglig hypotes</h5>
+          <h3 className="text-brand text-xl">Process och planering</h3>
+          <h4 className="font-medium">Ursprunglig hypotes</h4>
           <p className="italic text-sm">
             "Om tillgänglighet integreras som ett tydligt krav i roadmap och
             produktionsmål, med koppling till affärsvärde och riskminimering,
             prioriteras det mer konsekvent i utvecklingsbeslut."
           </p>
-          <h5 className="font-medium">Reviderad hypotes</h5>
+          <h4 className="font-medium">Reviderad hypotes</h4>
           <p className="italic text-sm">
             "Om tillgänglighet integreras som ett tydligt krav i roadmap och
             produktionsmål, med koppling till affärsvärde och riskminimering,
@@ -62,15 +62,15 @@ const Result = () => {
         </div>
 
         <div className="bg-neutral border-2 border-brand p-3 flex flex-col gap-2 max-w-80 rounded-lg">
-          <h4 className="text-brand text-xl">Kompetensutveckling</h4>
-          <h5 className="font-medium">Ursprunglig hypotes</h5>
+          <h3 className="text-brand text-xl">Kompetensutveckling</h3>
+          <h4 className="font-medium">Ursprunglig hypotes</h4>
           <p className="italic text-sm">
             "Om alla teammedlemmar genomgår återkommande utbildning i
             tillgänglighet, ökar både den grundläggande kunskapen och förmågan
             att ta ansvar tidigt i processen – vilket minskar fel och sena
             åtgärder."
           </p>
-          <h5 className="font-medium">Reviderad hypotes</h5>
+          <h4 className="font-medium">Reviderad hypotes</h4>
           <p className="italic text-sm">
             "Om alla teammedlemmar genomgår rollanpassad återkommande utbildning
             i tillgänglighet ökar den grundläggande kunskapen och
@@ -80,9 +80,9 @@ const Result = () => {
         </div>
 
         <div className="bg-neutral border-2 border-brand p-3 flex flex-col gap-2 max-w-80 rounded-lg">
-          <h4 className="text-brand text-xl">Användarinvolvering</h4>
+          <h3 className="text-brand text-xl">Användarinvolvering</h3>
 
-          <h5 className=" font-medium">Ny hypotes</h5>
+          <h4 className=" font-medium">Ny hypotes</h4>
           <p className="italic text-sm">
             "Om teamen involverar användare med funktionsnedsättningar i test
             och feedback under produktutveckling förbättras förståelsen och

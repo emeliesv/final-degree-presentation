@@ -13,7 +13,7 @@ const Metod = () => {
         förutsättningar.
       </p>
 
-      <h2 className="text-brandtext-2xl font-medium">
+      <h2 className="text-brand text-2xl font-medium">
         Workshop 1 - Discover & Define
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
