@@ -15,6 +15,7 @@ const ExpandableSection = ({ title, icon, subTitle, children }) => {
         className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-2 w-full"
         type="button"
         aria-expanded={expanded}
+        aria-label={`${expanded ? "Stäng" : "Expandera"} ${title} sektion`}
       >
         <span
           className="bg-brand text-neutral-light rounded-full p-3"

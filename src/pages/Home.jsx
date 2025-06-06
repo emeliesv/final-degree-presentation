@@ -2,6 +2,8 @@ import Hero from "../components/Hero";
 import DoubleDiamond from "../components/DoubleDiamond";
 import Result from "../components/Result";
 
+/* Lägg till datavisualisering piechart a11y */
+
 const Home = () => {
   return (
     <>
